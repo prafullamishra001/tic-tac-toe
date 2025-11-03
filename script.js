@@ -16,7 +16,8 @@ document.write(`Winner is ${currentplayer}`)
 return;
 }
 if(!arr.some(e=>e===null)){
-    document.write(`It is a Draw`)
+    document.write(`It is a Draw !!`)
+    return;
 }
 }
 
